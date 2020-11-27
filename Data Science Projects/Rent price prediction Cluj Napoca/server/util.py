@@ -78,7 +78,7 @@ def load_saved_artifacts():
     global __floor
     global __data_columns
 
-    with open("./artifacts/columns.json", 'r') as f:
+    with open("D:\\GitHub\\Projects\\Data Science Projects\\Rent price prediction Cluj Napoca\\server\\artifacts\\columns.json", 'r') as f:
         __data_columns = json.load(f)['data_columns']
         __neighborhoods = __data_columns[1:26]
         __new_building = __data_columns[26:28]
@@ -87,7 +87,7 @@ def load_saved_artifacts():
         __floor = __data_columns[41:]
 
     global __model
-    with open("./artifacts/cluj_napoca_rent_price_model.pickle", 'rb') as f:
+    with open("D:\\GitHub\\Projects\\Data Science Projects\\Rent price prediction Cluj Napoca\\server\\artifacts\\cluj_napoca_rent_price_model.pickle", 'rb') as f:
         __model = pickle.load(f)
     print("loading saved artifacts...end")
 
@@ -99,9 +99,9 @@ if __name__ == "__main__":
     print(get_partitioning_names())
     print(get_rooms_names())
     print(get_floor_names())
-    print(get_estimated_rent_price('Marasti', 'Semidecomandat', 'Imobil vechi', 28, 'Etaj 2', 1))
-    print(get_estimated_rent_price('Andrei Muresanu', 'Circular', 'Imobil vechi', 250, 'Parter', 4))
-    print(get_estimated_rent_price('Central', 'Semidecomandat', 'Imobil vechi', 50, 'Etaj 5', 2))
-    print(get_estimated_rent_price('Manastur', 'Semidecomandat', 'Imobil vechi', 45, 'Etaj 8', 2))
-    print(get_estimated_rent_price('Marasti', 'Semidecomandat', 'Imobil vechi', 40, 'Etaj 2', 2))
-    print(get_estimated_rent_price('Central', 'Decomandat', 'Imobil nou', 50, 'Etaj 2', 2))
+    print(get_estimated_rent_price('Marasti', 'Semidecomandat', 'Imobil vechi', 28, 'Etaj 2', '1 camera'))
+    print(get_estimated_rent_price('Andrei Muresanu', 'Circular', 'Imobil vechi', 250, 'Parter', '4 camere'))
+    print(get_estimated_rent_price('Central', 'Semidecomandat', 'Imobil vechi', 50, 'Etaj 5', '2 camere'))
+    print(get_estimated_rent_price('Manastur', 'Semidecomandat', 'Imobil vechi', 45, 'Etaj 8', '2 camere'))
+    print(get_estimated_rent_price('Marasti', 'Semidecomandat', 'Imobil vechi', 40, 'Etaj 2', '2 camere'))
+    print(get_estimated_rent_price('Central', 'Decomandat', 'Imobil nou', 50, 'Etaj 2', '2 camere'))

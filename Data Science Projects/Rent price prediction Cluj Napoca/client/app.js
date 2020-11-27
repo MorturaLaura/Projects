@@ -1,7 +1,7 @@
 function onClickedEstimateRentPrice() {
   console.log("Estimate rent price button clicked");
   var space = document.getElementById("uiSqft");
-  var room = document.getElementById("uiRooms");
+  var rooms = document.getElementById("uiRooms");
   var floor = document.getElementById("uiFloor");
   var partitioning = document.getElementById("uiPartitioning");
   var new_building = document.getElementById("uiNewBuilding");
@@ -12,11 +12,11 @@ function onClickedEstimateRentPrice() {
 
   $.post(url, {
       space: parseFloat(space.value),
-      rooms: room.value,
+      rooms: rooms.value,
       floor: floor.value,
       partitioning: partitioning.value,
       new_building: new_building.value,
-      location: neighborhood.value
+      neighborhood: neighborhood.value
   },function(data, status) {
       console.log(data.estimated_rent_price);
       estPrice.innerHTML = "<h2>" + data.estimated_rent_price.toString() + " EUR</h2>";

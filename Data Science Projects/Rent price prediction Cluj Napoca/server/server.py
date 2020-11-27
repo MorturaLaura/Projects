@@ -54,18 +54,18 @@ def get_floor_names():
     return response
 
 
-@app.route('/predict_rent_price', methods=['GET','POST'])
+@app.route('/predict_rent_price', methods=['GET', 'POST'])
 def predict_rent_price():
-    partitioning = request.form.get('partitioning')
-    space = float(request.form.get('space'))
     neighborhood = request.form.get('neighborhood')
+    partitioning = request.form.get('partitioning')
     new_building = request.form.get('new_building')
+    space = float(request.form.get('space'))
     floor = request.form.get('floor')
     rooms = request.form.get('rooms')
-    print(partitioning)
+
     response = jsonify({
-            'estimated_rent_price': util.get_estimated_rent_price(neighborhood, partitioning, new_building, space, floor, rooms)
-        })
+        'estimated_rent_price': util.get_estimated_rent_price(neighborhood, partitioning, new_building, space, floor, rooms)
+    })
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
