@@ -17,4 +17,3 @@ The end result was:
 ## Sales app layout
 
 <img src='Sales app layout.png'>
-
