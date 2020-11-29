@@ -11,9 +11,9 @@ The end result was:
 
 ## Profit app layout
 
-<img src="Profit app layout.png">
+<img src='Profit app layout.jpg'>
 
 
 ## Sales app layout
 
-<img src="Sales app layout.png">
+<img src='Sales app layout.jpg'>
