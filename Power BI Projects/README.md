@@ -4,4 +4,4 @@ In this repository for every exercise or project in Power BI, I will provide a d
 
 * [Automatic phone layout](https://github.com/MorturaLaura/Projects/tree/main/Power%20BI%20Projects/Automatic%20phone%20layout);
 * [Bar chart](https://github.com/MorturaLaura/Projects/tree/main/Power%20BI%20Projects/Bar%20chart);
-* [US states contribution to total sales](https://github.com/MorturaLaura/Projects/tree/main/Power%20BI%20Projects/US%20states%20contribution%20to%20totals;)
+* [US states contribution to total sales](https://github.com/MorturaLaura/Projects/tree/main/Power%20BI%20Projects/US%20states%20contribution%20to%20totals);
