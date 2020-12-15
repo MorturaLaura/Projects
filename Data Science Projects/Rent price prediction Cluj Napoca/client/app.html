@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cluj Napoca Apartment Rent Price Prediction</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="app.js"></script>
+  <title>Cluj Napoca Apartment Rent Price Prediction</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="app.js"></script>
 	<link rel="stylesheet" href="app.css">
 </head>
 <body>
-<div class="img"></div>
-<form class="form">
-        <h2>Square foot area of the apartment</h2>
-    <input class="space"  type="email" id="uiSqft" class="floatLabel" name="Squareft" value="0">
-	</form>
-<form class="form">
-  <h2>Number of rooms</h2>
-  <div>
-  <select class="rooms" name="" id="uiRooms">
-  <option value="" disabled="disabled" selected="selected">Choose the number of rooms</option>
-  <option>1 camera</option>
+  <div class="img"></div>
+  <form class="form">
+          <h2>Square foot area of the apartment</h2>
+      <input class="space"  type="email" id="uiSqft" class="floatLabel" name="Squareft" value="0">
+  </form>
+  <form class="form">
+    <h2>Number of rooms</h2>
+    <div>
+    <select class="rooms" name="" id="uiRooms">
+      <option value="" disabled="disabled" selected="selected">Choose the number of rooms</option>
+      <option>1 camera</option>
       <option>2 camere</option>
-  </select>
-  <h2>Floor</h2>
-  <div>
-  <select class="floor" name="" id="uiFloor">
-  <option value="" disabled="disabled" selected="selected">Choose the floor</option>
-  <option>Demisol</option>
+    </select>
+    </div>
+    <h2>Floor</h2>
+    <div>
+    <select class="floor" name="" id="uiFloor">
+      <option value="" disabled="disabled" selected="selected">Choose the floor</option>
+      <option>Demisol</option>
       <option>Etaj 1</option>
-  </select>
-  <h2>Partitioning</h2>
-  <div>
-  <select class="partitioning" name="" id="uiPartitioning">
-  <option value="" disabled="disabled" selected="selected">Choose the type of partitioning</option>
-  <option>Decomandat</option>
+    </select>
+    </div>
+    <h2>Partitioning</h2>
+    <div>
+    <select class="partitioning" name="" id="uiPartitioning">
+      <option value="" disabled="disabled" selected="selected">Choose the type of partitioning</option>
+      <option>Decomandat</option>
       <option>Semidecomandat</option>
-  </select>
-  <h2>New Building</h2>
-  <div>
-  <select class="new_building" name="" id="uiNewBuilding">
-  <option value="" disabled="disabled" selected="selected">Choose the type of the building</option>
-  <option>Imobil nou</option>
+    </select>
+    </div>
+    <h2>New Building</h2>
+    <div>
+    <select class="new_building" name="" id="uiNewBuilding">
+      <option value="" disabled="disabled" selected="selected">Choose the type of the building</option>
+      <option>Imobil nou</option>
       <option>Imobil vechi</option>
-  </select>
-  <h2>Neighborhood</h2>
-	<div>
-  <select class="neighborhood" name="" id="uiNeighborhoods">
-    <option value="" disabled="disabled" selected="selected">Choose a Neighborhood</option>
-		<option>Manastur</option>
-        <option>Marasti</option>
-  </select>
-</div>
-	<button class="submit" onclick="onClickedEstimateRentPrice()" type="button">Estimate Rent Price</button>
-	<div id="uiEstimatedRentPrice" class="result">	<h2></h2> </div>
+    </select>
+    </div>
+    <h2>Neighborhood</h2>
+  	<div>
+    <select class="neighborhood" name="" id="uiNeighborhoods">
+      <option value="" disabled="disabled" selected="selected">Choose a Neighborhood</option>
+  		<option>Manastur</option>
+          <option>Marasti</option>
+    </select>
+    </div>
+  	<button class="submit" onclick="onClickedEstimateRentPrice()" type="button">Estimate Rent Price</button>
+  	<div id="uiEstimatedRentPrice" class="result"></div>
 </body>
 </html>
