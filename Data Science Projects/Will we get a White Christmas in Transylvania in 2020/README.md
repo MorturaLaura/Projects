@@ -7,9 +7,12 @@ In past years, here in the heart of Transylvania, in the city of Alba Iulia, we 
 The weather data from the weather stations (which consisted in precipitations, average temperatures, maximum and minimum temperatures registered from 1950 until 2019) were ordered from the [National Centers for Environmental Information (NCEI - offers access to the most significant archives of oceanic, atmospheric, geophysical and coastal data](https://gis.ncdc.noaa.gov/maps/ncei/). I used the data from 1950 until 2019 because the data for the <b>[AO Index (Arctic Oscillation Index)](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/monthly.ao.index.b50.current.ascii.table)</b> and the <b>[NINO3.4 Index (El NINO Index)](https://climexp.knmi.nl/data/iersst_nino3.4a_rel.dat)</b> were available only during this period.
 
 ## Cluj Napoca:
+
 [[12  3]
  [ 3  3]]
+ 
 0.7142857142857143
+
               precision    recall  f1-score   support
 
          0.0       0.80      0.80      0.80        15
@@ -23,7 +26,9 @@ weighted avg       0.71      0.71      0.71        21
 
 [[8 3]
  [4 3]]
+ 
 0.6111111111111112
+
               precision    recall  f1-score   support
 
          0.0       0.67      0.73      0.70        11
@@ -34,9 +39,12 @@ weighted avg       0.71      0.71      0.71        21
 weighted avg       0.60      0.61      0.60        18
 
 ## Deva:
+
 [[14  0]
  [ 4  0]]
+ 
 0.7777777777777778
+
               precision    recall  f1-score   support
 
          0.0       0.78      1.00      0.88        14
