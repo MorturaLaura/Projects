@@ -4,3 +4,4 @@ When creating these projescts I want to tackle problems that are in my circle of
 
 ## Machine Learning Projects:
 * [Rent price prediction Cluj Napoca](https://github.com/MorturaLaura/Projects/tree/main/Data%20Science%20Projects/Rent%20price%20prediction%20Cluj%20Napoca);
+* [Will we get a White Christmas in Transylvania in 2020?](https://github.com/MorturaLaura/Projects/tree/main/Data%20Science%20Projects/Will%20we%20get%20a%20White%20Christmas%20in%20Transylvania%20in%202020);
