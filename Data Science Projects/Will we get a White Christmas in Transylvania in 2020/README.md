@@ -8,9 +8,7 @@ The weather data from the weather stations (which consisted in precipitations, a
 
 ## Cluj Napoca:
 
-[[12  3]
- [ 3  3]]
- 
+``` 
 0.7142857142857143
 
               precision    recall  f1-score   support
@@ -21,12 +19,11 @@ The weather data from the weather stations (which consisted in precipitations, a
     accuracy                           0.71        21
    macro avg       0.65      0.65      0.65        21
 weighted avg       0.71      0.71      0.71        21
+```
 
 ## Sibiu:
 
-[[8 3]
- [4 3]]
- 
+```
 0.6111111111111112
 
               precision    recall  f1-score   support
@@ -37,12 +34,11 @@ weighted avg       0.71      0.71      0.71        21
     accuracy                           0.61        18
    macro avg       0.58      0.58      0.58        18
 weighted avg       0.60      0.61      0.60        18
+```
 
 ## Deva:
 
-[[14  0]
- [ 4  0]]
- 
+```
 0.7777777777777778
 
               precision    recall  f1-score   support
@@ -53,3 +49,4 @@ weighted avg       0.60      0.61      0.60        18
     accuracy                           0.78        18
    macro avg       0.39      0.50      0.44        18
 weighted avg       0.60      0.78      0.68        18
+```
