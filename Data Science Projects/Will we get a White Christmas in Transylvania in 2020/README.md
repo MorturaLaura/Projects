@@ -19,13 +19,13 @@ With the help of the data collected above, I built three data sets, one for each
 The scores obtained for the models were overall good. Probably if I could have a larger number of values, the scores would be better. We also have to take into account the fact that overall the time span for which the weather data was registered is small. For temperatures and precipitation in some weather stations like the ones from Great Britain we can find the a larger span of data like from the beginning of the 18th century but for indexes like in our case, the AO Index and NINO3.4 Index, I could only find data from 1950 until the present day and if you are interested in only one day of the year, automatically the range of the data will be smaller.
 
 #### For predicting the probability of having a White Christmas in Cluj Napoca, the result obtained was:
-* ```array([[0.7736747, 0.2263253]])``` : We can state that there is a probability of 77% that Cluj Napoca will not have a White Christmas in 2020.
+* ```array([[0.88, 0.12]])``` : We can state that there is a probability of 88% that Cluj Napoca will not have a White Christmas in 2020.
 
 #### For predicting the probability of having a White Christmas in Sibiu, the result obtained was:
-* ```array([[0.96936125, 0.03063873]], dtype=float32)``` : We can state that there is a probability of 97% that Sibiu will not have a White Christmas in 2020.
+* ```array([[0.8497904 , 0.15020959]], dtype=float32)``` : We can state that there is a probability of 85% that Sibiu will not have a White Christmas in 2020.
 
 #### For predicting the probability of having a White Christmas in Deva, the result obtained was:
-* ```array([[0.69576902, 0.30423098]])``` : We can state that there is a probability of approximately 70% that Deva will not have a White Christmas in 2020.
+* ```array([[0.69624656, 0.30375344]])``` : We can state that there is a probability of approximately 70% that Deva will not have a White Christmas in 2020.
 
 Overall, based on our findings, we can conclude that this year there will not be a White Christmas in Transylvania.
 
